@@ -12,7 +12,7 @@ body {
     text-align: center;
     line-height: 1.5em;
     background-repeat: repeat;
-    background-image: url(img/advmap_fill.bmp);
+    background-image: url(img/advmap_fill.jpg);
     color: white;
     display:flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ body {
 }
 
 button {
-    background-image: url(img/GldBtn.bmp);
+    background-image: url(img/GldBtn.jpg);
     font-family: btnFont;
     display: block;
     font-size: 1.5em;
