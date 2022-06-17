@@ -12,7 +12,7 @@ body {
     text-align: center;
     line-height: 1.5em;
     background-repeat: repeat;
-    background-image: url(img/advmap_fill.jpg);
+    background-image: url(img/advmap_fill.bmp);
     color: white;
     display:flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ body {
 }
 
 button {
-    background-image: url(img/GldBtn.jpg);
+    background-image: url(img/GldBtn.bmp);
     font-family: btnFont;
     display: block;
     font-size: 1.5em;
@@ -41,7 +41,7 @@ button:active {
 }
 
 .textWrapper {
-    background-image: url(img/unknown37.jpg);
+    background-image: url(img/Grande.png);
     height: 692px;
     width: 924px;
     margin: 10px auto;
