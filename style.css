@@ -1,0 +1,62 @@
+@font-face {
+    font-family: btnFont;
+    src: url(font/ncs75.otf);
+}
+
+@font-face {
+    font-family: txtFont;
+    src: url(font/csb.otf);
+}
+
+body {
+    text-align: center;
+    line-height: 1.5em;
+    background-repeat: repeat;
+    background-image: url(img/advmap_fill.bmp);
+    color: white;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background-image: url(img/GldBtn.bmp);
+    font-family: btnFont;
+    display: block;
+    font-size: 1.5em;
+    height: 48px;
+    width: 422px;
+    margin: 0 auto;
+    border: 0;
+    color: black;
+    flex: 0 0 auto;
+}
+
+button:active {
+    border: 1px solid black;
+    background-position: -1px -1px;
+    filter: brightness(60%);
+}
+
+.textWrapper {
+    background-image: url(img/LA.png);
+    height: 692px;
+    width: 924px;
+    margin: 10px auto;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#text {
+    font-family: txtFont;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 40px;
+}
+
+.filler {
+    flex: 2 0 0;
+}
